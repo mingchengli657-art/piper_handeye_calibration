@@ -1,0 +1,91 @@
+result_file: examples/reference/handeye_result.yaml
+min_charuco_corners: 88
+sample_count: 10
+excluded_sample_ids:
+- 79
+- 80
+- 83
+- 89
+- 90
+base_T_target_translation_mean_m:
+- 0.5246095491576923
+- 0.03137552843726825
+- 0.11780187524227823
+translation_error_mean_mm: 1.7380331281459518
+translation_error_rms_mm: 1.8611782596176554
+translation_error_max_mm: 3.333975371742424
+rotation_error_mean_deg: 0.17543478264538553
+rotation_error_rms_deg: 0.18489253095333802
+rotation_error_max_deg: 0.3048249185190488
+worst_translation_samples:
+- &id002
+  sample_id: 82
+  charuco_corner_count: 88
+  translation_error_m: 0.003333975371742424
+  translation_error_mm: 3.333975371742424
+  rotation_error_deg: 0.2565786377981611
+- &id009
+  sample_id: 91
+  charuco_corner_count: 88
+  translation_error_m: 0.0020083567474889876
+  translation_error_mm: 2.0083567474889876
+  rotation_error_deg: 0.14640398300801546
+- &id008
+  sample_id: 86
+  charuco_corner_count: 88
+  translation_error_m: 0.001969538432555187
+  translation_error_mm: 1.9695384325551868
+  rotation_error_deg: 0.146694574795928
+- &id010
+  sample_id: 92
+  charuco_corner_count: 88
+  translation_error_m: 0.0019033449260390642
+  translation_error_mm: 1.9033449260390642
+  rotation_error_deg: 0.08676891405232406
+- &id006
+  sample_id: 84
+  charuco_corner_count: 88
+  translation_error_m: 0.0018441426825801606
+  translation_error_mm: 1.8441426825801606
+  rotation_error_deg: 0.15205452922066381
+- &id003
+  sample_id: 85
+  charuco_corner_count: 88
+  translation_error_m: 0.0017164495986253894
+  translation_error_mm: 1.7164495986253894
+  rotation_error_deg: 0.17228754001644786
+- &id001
+  sample_id: 88
+  charuco_corner_count: 88
+  translation_error_m: 0.0016150597535090011
+  translation_error_mm: 1.6150597535090012
+  rotation_error_deg: 0.3048249185190488
+- &id004
+  sample_id: 81
+  charuco_corner_count: 88
+  translation_error_m: 0.0011763855806840838
+  translation_error_mm: 1.1763855806840837
+  rotation_error_deg: 0.17093564819721965
+- &id007
+  sample_id: 87
+  charuco_corner_count: 88
+  translation_error_m: 0.000962055906280781
+  translation_error_mm: 0.962055906280781
+  rotation_error_deg: 0.15187519993866336
+- &id005
+  sample_id: 93
+  charuco_corner_count: 88
+  translation_error_m: 0.0008510222819544413
+  translation_error_mm: 0.8510222819544413
+  rotation_error_deg: 0.16592388090738333
+worst_rotation_samples:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010

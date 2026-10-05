@@ -1,0 +1,253 @@
+configuration:
+  type: eye_in_hand
+  robot_pose: base_T_tcp
+  camera_target_pose: camera_T_target
+  output_transform: tcp_T_camera
+selection:
+  selected_method: park
+  min_charuco_corners: 88
+  max_timestamp_difference_s: 0.05
+  used_sample_count: 43
+  excluded_sample_count: 35
+  used_samples:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 39
+  - 43
+  - 45
+  - 46
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  - 55
+  - 62
+  - 65
+  - 66
+  - 71
+  - 76
+  - 77
+  - 78
+  excluded_samples:
+  - file: data/samples/metadata/sample_001.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_006.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_016.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_017.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_024.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_025.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_026.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_027.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_028.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_029.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_030.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_031.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_038.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_040.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_041.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_042.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_044.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_047.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_054.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_056.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_057.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_058.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_059.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_060.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_061.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_063.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_064.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_067.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_068.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_069.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_070.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_072.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_073.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_074.json
+    reasons:
+    - too_few_corners
+  - file: data/samples/metadata/sample_075.json
+    reasons:
+    - too_few_corners
+tcp_T_camera:
+  matrix:
+  - - 0.997779186326429
+    - -0.06626323322172532
+    - -0.006773422825855015
+    - -0.012302821833505406
+  - - 0.06385809779568842
+    - 0.9226997272131402
+    - 0.3801938410162788
+    - -0.07397556648478916
+  - - -0.018943037763009745
+    - -0.37978203923276654
+    - 0.9248820270696748
+    - 0.04694423571149675
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+  translation_m:
+  - -0.012302821833505406
+  - -0.07397556648478916
+  - 0.04694423571149675
+  quaternion_xyzw:
+  - -0.19377656723892756
+  - 0.0031029750659568823
+  - 0.03317798038649833
+  - 0.9804795944599309
+  rvec_rad:
+  - -0.39009472218418345
+  - 0.006246648981073114
+  - 0.06679112560367062
+methods:
+  tsai:
+    base_target_translation_mean_m:
+    - 0.525082452258438
+    - 0.030435548808150525
+    - 0.11629320628660494
+    base_target_translation_error_mean_m: 0.002756809326880513
+    base_target_translation_error_rms_m: 0.0030284581489265884
+    base_target_translation_error_max_m: 0.005623783416884334
+    base_target_rotation_error_mean_deg: 0.2858635342528005
+    base_target_rotation_error_rms_deg: 0.32493155497662385
+    base_target_rotation_error_max_deg: 0.7624480176891041
+    method: tsai
+  park:
+    base_target_translation_mean_m:
+    - 0.5250676622442918
+    - 0.030453290964490405
+    - 0.11630092751179827
+    base_target_translation_error_mean_m: 0.0027547160246505246
+    base_target_translation_error_rms_m: 0.003026627537877836
+    base_target_translation_error_max_m: 0.005612735690887304
+    base_target_rotation_error_mean_deg: 0.2859606938133659
+    base_target_rotation_error_rms_deg: 0.3250031338410918
+    base_target_rotation_error_max_deg: 0.7642832387638812
+    method: park
+  horaud:
+    base_target_translation_mean_m:
+    - 0.5250670165812411
+    - 0.03044693984919827
+    - 0.11629786057164071
+    base_target_translation_error_mean_m: 0.00275486884623247
+    base_target_translation_error_rms_m: 0.003026691278911371
+    base_target_translation_error_max_m: 0.005614298054125021
+    base_target_rotation_error_mean_deg: 0.2859618585623986
+    base_target_rotation_error_rms_deg: 0.3250413439490166
+    base_target_rotation_error_max_deg: 0.7643788531377327
+    method: horaud
+  andreff:
+    base_target_translation_mean_m:
+    - 0.5385583796366626
+    - 0.02851363027840867
+    - 0.10995312637246138
+    base_target_translation_error_mean_m: 0.00409715025155443
+    base_target_translation_error_rms_m: 0.0045652889318680044
+    base_target_translation_error_max_m: 0.008939122580208209
+    base_target_rotation_error_mean_deg: 0.2867307998725188
+    base_target_rotation_error_rms_deg: 0.3261219234861075
+    base_target_rotation_error_max_deg: 0.7805312840630604
+    method: andreff
+  daniilidis:
+    base_target_translation_mean_m:
+    - 0.5247800492882695
+    - 0.030689923212629443
+    - 0.11633248420621042
+    base_target_translation_error_mean_m: 0.0027272765021479207
+    base_target_translation_error_rms_m: 0.0030024873322391857
+    base_target_translation_error_max_m: 0.005503756895135809
+    base_target_rotation_error_mean_deg: 0.2879174102729005
+    base_target_rotation_error_rms_deg: 0.3276161730745746
+    base_target_rotation_error_max_deg: 0.7937332587918198
+    method: daniilidis
