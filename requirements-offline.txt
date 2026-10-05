@@ -1,0 +1,5 @@
+# Offline solve/validation only; use apt packages for ROS acquisition.
+numpy>=1.21,<2
+scipy>=1.8,<2
+PyYAML>=6,<7
+opencv-contrib-python>=4.5.4,<4.7
