@@ -1,5 +1,9 @@
 # Piper Hand–Eye Calibration
 
+**Piper 视觉抓取系列 · 01 / 手眼标定** · [系列总入口与整套运行指南](https://github.com/mingchengli657-art/piper-vision-grasping)
+
+本模块提供相机到 TCP 的外参；[物体建模](https://github.com/mingchengli657-art/d405-object-modeling)提供模型，[FoundationPose](https://github.com/mingchengli657-art/foundationpose-d405-runtime)提供在线物体位姿，[Piper 控制](https://github.com/mingchengli657-art/piper-known-object-control)使用外参连接视觉与机械臂。
+
 面向 **Piper X + Intel RealSense D405** 的眼在手上标定工具。相机刚性固定在机械臂末端，ChArUco 板固定在工作空间，通过多组机械臂姿态求出相机到 TCP/法兰的外参。
 
 从机器人比赛项目中提取，包含 **标定板检测 → 时间戳配对采集 → 样本筛选 → 五种算法求解 → 独立样本验证 → ROS 2 静态 TF 发布**。采集和发布脚本不发送机械臂运动指令；机械臂驱动和相机驱动由使用者单独启动。
